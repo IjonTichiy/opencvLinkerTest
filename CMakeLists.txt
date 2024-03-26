@@ -34,6 +34,7 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 find_package(OpenCV REQUIRED
     PATHS 
     "${CMAKE_SOURCE_DIR}/lib/opencv/release"
+    "${CMAKE_SOURCE_DIR}/lib/opencv/debug"
     )
 
 # Libraries
